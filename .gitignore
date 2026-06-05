@@ -1,0 +1,110 @@
+# ==============================
+# 🔐 Variables d'environnement
+# ==============================
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+*.env
+
+# ==============================
+# 🐍 Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+
+# ==============================
+# 📦 Environnements virtuels
+# ==============================
+venv/
+venv311/
+venv312/
+env/
+ENV/
+.venv/
+Pipfile.lock
+
+# ==============================
+# 🧠 CrewAI & LiteLLM cache
+# ==============================
+.crewai/
+crew_outputs/
+.litellm/
+.cache/
+
+# ==============================
+# 🗄️ ChromaDB
+# ==============================
+chroma_db/
+chroma_langchain/
+*.sqlite3
+*.db
+
+# ==============================
+# 📊 Logs & Métriques
+# ==============================
+logs/
+*.log
+metrics.json
+rapport_*.md
+output/
+outputs/
+reports/
+
+# ==============================
+# ⚛️ React / Node
+# ==============================
+node_modules/
+frontend/dist/
+frontend/build/
+.next/
+*.local
+npm-debug.log*
+
+# ==============================
+# 🧪 Tests & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+report.html
+tests/__pycache__/
+
+# ==============================
+# 💻 IDEs & Editeurs
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+.windsurf/
+
+# ==============================
+# 🗂️ OS
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# ==============================
+# 📁 Données sensibles
+# ==============================
+data/
+secrets/
+*.csv
+*.xlsx
+*.pem
+*.key
+*.cert

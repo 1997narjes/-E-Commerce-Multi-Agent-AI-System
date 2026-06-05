@@ -1,0 +1,18 @@
+# documents/produits.txt
+iPhone Case Premium
+Prix: 29 DT
+Stock: 250 unités
+Description: Coque de protection premium pour iPhone 14/15
+Catégorie: Accessoires
+---
+Samsung S24
+Prix: 1200 DT
+Stock: 5 unités (CRITIQUE)
+Description: Smartphone Samsung Galaxy S24 128GB
+Catégorie: Téléphones
+---
+Laptop Dell Inspiron
+Prix: 2500 DT
+Stock: 30 unités
+Description: Laptop Dell i5 16GB RAM 512GB SSD
+Catégorie: Laptops
