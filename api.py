@@ -67,7 +67,7 @@ def analyze():
         "timestamp": datetime.now().isoformat(),
     }
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run("api:app", host="0.0.0.0", port=port)
